@@ -86,6 +86,12 @@ class VescUart
 		void setBrakeCurrent(float brakeCurrent);
 
 		/**
+		 * @brief      Set the current to handbrake the motor
+		 * @param      handbrakeCurrent  - The current to apply
+		 */
+		void setBrakeCurrent(float handBrakeCurrent);
+
+		/**
 		 * @brief      Set the rpm of the motor
 		 * @param      rpm  - The desired RPM (actually eRPM = RPM * poles)
 		 */

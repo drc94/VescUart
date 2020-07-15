@@ -89,7 +89,7 @@ class VescUart
 		 * @brief      Set the current to handbrake the motor
 		 * @param      handbrakeCurrent  - The current to apply
 		 */
-		void setBrakeCurrent(float handBrakeCurrent);
+		void setHandBrakeCurrent(float handBrakeCurrent);
 
 		/**
 		 * @brief      Set the rpm of the motor
